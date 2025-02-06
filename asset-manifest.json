@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/we-gather/static/css/main.5c38d310.css",
+    "main.js": "/we-gather/static/js/main.8688a075.js",
+    "static/css/113.984b78a8.chunk.css": "/we-gather/static/css/113.984b78a8.chunk.css",
+    "static/js/113.a64e07f3.chunk.js": "/we-gather/static/js/113.a64e07f3.chunk.js",
+    "static/css/66.a809b2d6.chunk.css": "/we-gather/static/css/66.a809b2d6.chunk.css",
+    "static/js/66.0ceb26e5.chunk.js": "/we-gather/static/js/66.0ceb26e5.chunk.js",
+    "static/css/390.a809b2d6.chunk.css": "/we-gather/static/css/390.a809b2d6.chunk.css",
+    "static/js/390.4a9dfe51.chunk.js": "/we-gather/static/js/390.4a9dfe51.chunk.js",
+    "static/css/753.33ae8614.chunk.css": "/we-gather/static/css/753.33ae8614.chunk.css",
+    "static/js/753.db748787.chunk.js": "/we-gather/static/js/753.db748787.chunk.js",
+    "static/js/453.cdded21c.chunk.js": "/we-gather/static/js/453.cdded21c.chunk.js",
+    "static/media/gather.jpg": "/we-gather/static/media/gather.0b4054452b90a600457f.jpg",
+    "index.html": "/we-gather/index.html",
+    "main.5c38d310.css.map": "/we-gather/static/css/main.5c38d310.css.map",
+    "main.8688a075.js.map": "/we-gather/static/js/main.8688a075.js.map",
+    "113.984b78a8.chunk.css.map": "/we-gather/static/css/113.984b78a8.chunk.css.map",
+    "113.a64e07f3.chunk.js.map": "/we-gather/static/js/113.a64e07f3.chunk.js.map",
+    "66.a809b2d6.chunk.css.map": "/we-gather/static/css/66.a809b2d6.chunk.css.map",
+    "66.0ceb26e5.chunk.js.map": "/we-gather/static/js/66.0ceb26e5.chunk.js.map",
+    "390.a809b2d6.chunk.css.map": "/we-gather/static/css/390.a809b2d6.chunk.css.map",
+    "390.4a9dfe51.chunk.js.map": "/we-gather/static/js/390.4a9dfe51.chunk.js.map",
+    "753.33ae8614.chunk.css.map": "/we-gather/static/css/753.33ae8614.chunk.css.map",
+    "753.db748787.chunk.js.map": "/we-gather/static/js/753.db748787.chunk.js.map",
+    "453.cdded21c.chunk.js.map": "/we-gather/static/js/453.cdded21c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5c38d310.css",
+    "static/js/main.8688a075.js"
+  ]
+}
