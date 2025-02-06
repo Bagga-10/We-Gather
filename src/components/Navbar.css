@@ -1,0 +1,116 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color:black;
+    font-family: cursive;
+  }
+  
+  .nav-links {
+  list-style: none; /* Remove bullets */
+  display: flex; /* Align items horizontally */
+  justify-content: space-around; /* Space out the links */
+  padding: 0;
+  /* background-color: #333; Navbar background */
+}
+
+.nav-links li {
+  margin: 0 10px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: black;
+  padding: 10px 15px;
+  font-size: 16px;
+  transition: all 0.3s ease; /* Smooth hover effect */
+}
+
+/* Hover effects for each link */
+.nav-links a:hover {
+  transform: scale(1.1); /* Slightly enlarge on hover */
+}
+
+/* Separate hover styles */
+.nav-links li:nth-child(1) a:hover {
+  background-color: gray; /* Home hover color */
+  border-radius: 30px;
+}
+
+.nav-links li:nth-child(2) a:hover {
+  background-color: gray; /* Academic Updates hover color */
+  border-radius: 30px;
+
+}
+
+.nav-links li:nth-child(3) a:hover {
+  background-color: gray; /* Events hover color */
+  border-radius: 30px;
+
+}
+
+.nav-links li:nth-child(4) a:hover {
+  background-color: grey; /* Announcements hover color */
+  border-radius: 30px;
+
+}
+
+.nav-links li:nth-child(5) a:hover {
+  background-color: grey; /* Messaging hover color */
+  border-radius: 30px;
+
+}
+
+.nav-links li:nth-child(6) a:hover {
+  background-color: grey; /* Messaging hover color */
+  border-radius: 30px;
+
+}
+  
+  .auth-links .login-btn, .register-btn {
+    text-decoration: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    font-size: 0.9rem;
+  }
+  
+  .login-btn {
+    background-color: transparent;
+    color: #333;
+    border: 1px solid #333;
+    cursor: pointer;
+    transition: all 0.3s ease, background-color 0.3s ease; /* Fixed transition */
+  }
+  
+  .login-btn:hover {
+    background-color: #08488e; /* Darker blue on hover */
+    color: white; /* Change text color for better contrast */
+    transform: scale(1.1); /* Slightly enlarge on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow */
+  }
+  
+  
+  .register-btn {
+    background-color: #f77c7c;
+    color: white;
+    margin-left: 10px;
+    border: 1px solid #333;
+    cursor: pointer;
+    transition: all 0.3s ease, background-color 0.3s ease;
+  }
+
+  .register-btn:hover {
+    background-color: pink; /* Darker blue on hover */
+    color: black; /* Change text color for better contrast */
+    transform: scale(1.1); /* Slightly enlarge on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow */
+  }
+  

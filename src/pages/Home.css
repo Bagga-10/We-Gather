@@ -1,0 +1,177 @@
+/* Home Styles */
+.home {
+  min-height: 100vh; /* Ensures the home page takes full viewport height */
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: #4c4a60;
+  color: white;
+}
+
+/* Hero Section */
+.hero {
+  background-image: url('gather.jpg'); /* Ensure this file is in the correct path */
+  background-size: cover;
+  background-position: center;
+  padding: 15rem 5rem; /* Adjust for image height */
+  text-align: center;
+  color: white;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin: 0;
+  font-family: cursive;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin: 20px 0;
+  font-family: cursive;
+  font-weight: 500;
+}
+
+/* Features Section */
+.features {
+  padding: 20px 20px;
+  text-align: center;
+  background-color: #4c4a60; /* Dark background for contrast */
+}
+
+.features-heading {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  font-family: cursive;
+}
+
+.features-subheading {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  font-family: cursive;
+}
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); /* Automatically adjust columns based on screen size */
+  gap: 30px; /* Slightly larger gap for better spacing */
+  max-width: 1000px; /* Increased max width for a more spacious layout */
+  margin: 10px auto; /* Adds some margin to separate the grid from other sections */
+  padding: 30px 30px; /* Adds padding for better spacing on smaller screens */
+  overflow-x: auto;
+}
+
+.feature-card {
+  background-color: #4c4a60; /* Slightly darker color for better contrast */
+  padding: 15px; /* More padding for content spacing */
+  border-radius: 15px; /* Softer, rounded corners */
+  color: #f0f0f0; /* Lighter text color for better readability */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Deeper shadow for a 3D effect */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
+}
+
+.feature-card:hover {
+  transform: translateY(-10px); /* Hover effect: lifts the card */
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4); /* Intensified shadow on hover */
+}
+
+.feature-card h3 {
+  font-size: 1.8rem; /* Slightly larger heading size */
+  margin-bottom: 10px; /* Increased spacing below the heading */
+}
+
+.feature-card p {
+  font-size: 1rem;
+  line-height: 1.6; /* Better line spacing for readability */
+  margin-bottom: 5px;
+}
+
+.feature-icon {
+  font-size: 3rem; /* Larger icon size for better emphasis */
+  margin-bottom: 15px;
+  color: #ffd700; /* Gold color for icons to stand out */
+}
+
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+footer {
+  background-color: #f8f9fa; /* Light background */
+  border-top: 1px solid #e9ecef; /* Subtle border */
+}
+
+footer .text-body-secondary {
+  color: #6c757d !important; /* Secondary text color */
+}
+
+footer .nav a {
+  color: #6c757d;
+  transition: color 0.3s ease;
+}
+
+footer .nav a:hover {
+  color: #0d6efd; /* Primary color on hover */
+}
+
+footer svg {
+  fill: currentColor; /* Ensures icons inherit text color */
+}
+
+footer .bi {
+  vertical-align: -0.125em; /* Align icons properly */
+}
+
+
+.home-banner {
+  background-color: white;
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  height: 45vh; /* Ensure the container takes up the full height of the viewport */
+  text-align: center; /* Align text inside the container */
+}
+.buttonFilled {
+  background-color:chocolate;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  /* border-radius: 15px; */
+  cursor: pointer;
+  text-align: center;
+  display: block;
+  margin: 30px auto;
+  text-decoration: none; /* Remove underline from anchor tag */
+  transition: transform 0.3s ease, background-color 0.3s ease; /* Smooth transition for transform and background-color */
+}
+
+.buttonFilled a {
+  color: white; /* Ensure the link text remains white */
+  text-decoration: none; /* Ensure no underline on link */
+  font-weight: bold;
+}
+
+.buttonFilled:hover {
+  transform: scale(1.1); /* Zoom in by 10% */
+  text-decoration: none;
+}
+
+
+.home-banner-heading{
+  color: black;
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 40px;
+  font-family: cursive;
+}
+
+.home-banner-sub-heading{
+  font-size: 1.2rem;
+  /* font-weight: bold; */
+  margin: 40px;
+  font-family: cursive;
+  color: black;
+}
+

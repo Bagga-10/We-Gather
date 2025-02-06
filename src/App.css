@@ -1,0 +1,149 @@
+/* App.css */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: #fff;
+  border-bottom: 1px solid #ddd;
+}
+.navbar-logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.navbar-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+.navbar-links li {
+  cursor: pointer;
+}
+.navbar-buttons button {
+  padding: 0.5rem 1rem;
+  margin-left: 1rem;
+  border: none;
+  cursor: pointer;
+}
+.register-btn {
+  background: #ff6f61;
+  color: white;
+  border-radius: 4px;
+}
+.login-btn {
+  background: none;
+  color: black;
+}
+
+/* Hero Section */
+.hero {
+  /* background-image: url('./pages/gather.jpg');
+  background-size: center;
+  background-position: center;
+  text-align: center;
+  color: white;
+  padding: 15rem 5rem; */
+  position: relative;
+}
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  position: relative;
+  color: ghostwhite;
+  top: 230px;
+  animation: bounce 1.5s ease infinite, colorChange 3s linear infinite;
+}
+
+/* Bouncing Animation */
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+/* Color Animation */
+/* @keyframes colorChange {
+  0% {
+    color: black;
+  }
+  25% {
+    color: #f77c7c; 
+  }
+  50% {
+    color: brown; 
+  }
+  75% {
+    color: darkred ; 
+  }
+  100% {
+    color: black; 
+  }
+} */
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  position: relative;
+  top: 230px;
+  text-decoration: overline;
+}
+.hero-buttons .get-started-btn {
+  background: #ff6f61;
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 4px;
+}
+.hero-buttons .learn-more-btn {
+  background: none;
+  color: white;
+  border: 1px solid white;
+  padding: 0.75rem 1.5rem;
+  border-radius: 4px;
+  margin-left: 1rem;
+}
+
+/* Features Section */
+.features {
+  background: #f4f4f4;
+  padding: 2rem 1rem;
+  text-align: center;
+}
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+.feature-card {
+  background: #fff;
+  padding: 1rem;
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.feature-card h3 {
+  margin-bottom: 1rem;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 2rem 1rem;
+  background: #fff;
+  border-top: 1px solid #ddd;
+}
+.footer .learn-more-btn {
+  background: #ff6f61;
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 4px;
+}
